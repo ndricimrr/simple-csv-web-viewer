@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f9;
+}
+
+h1 {
+  color: #333;
+}
+
+#drop-area {
+  border: 2px dashed #bbb;
+  padding: 40px;
+  width: 50%;
+  margin: 20px auto;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#drop-area.dragover {
+  border-color: #333;
+  background-color: #e8e8e8;
+}
+
+#table-container {
+  width: 80%;
+  margin: 20px auto;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+td {
+  background-color: #f9f9f9;
+}
