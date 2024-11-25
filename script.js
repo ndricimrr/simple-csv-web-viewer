@@ -37,7 +37,7 @@ function handleFile(file) {
   if (file && file.type === "text/csv") {
     const reader = new FileReader();
     reader.onload = (event) => displayCSV(event.target.result);
-    reader.readAsText(file, 'UTF-8');
+    reader.readAsText(file, 'ISO-8859-1');
   } else {
     alert("Please upload a valid CSV file.");
   }
